@@ -25,4 +25,4 @@ app.get('/root', (request, response) => {
 
 app.listen(9898, '0.0.0.0', () => {
     console.log('server started on port 9898')
-})
+});

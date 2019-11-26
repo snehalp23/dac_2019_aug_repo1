@@ -11,6 +11,8 @@ app.use(function(req, res, next) {
 });
 app.use(bodyParser.json())
 
+//hello
+//world
 // use all the routers
 app.use('/product', routerProduct)
 

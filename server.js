@@ -20,7 +20,7 @@ app.get('/', (request, response) => {
 })
 
 app.get('/root', (request, response) => {
-    response.send('welcome to my backend')
+    response.send('welcome to the world of Gundas')
 })
 
 app.listen(9898, '0.0.0.0', () => {
